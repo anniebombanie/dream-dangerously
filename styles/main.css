@@ -14,10 +14,11 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  overflow: hidden;
 }
 
 ul {
-  margin: 0;
+  margin: -12% 0 0;
   padding: 0;
   list-style: none;
   letter-spacing: 0;
@@ -80,10 +81,36 @@ ul li.dangerously {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   text-transform: uppercase;
+  padding-left: 21%;
 }
 
 ul li.dangerously span {
   margin-left: -1.5%;
+}
+
+ul li.dangerously span:nth-child(1) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+ul li.dangerously span:nth-child(2) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+ul li.dangerously span:nth-child(3) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+ul li.dangerously span:nth-child(4) {
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+
+ul li.dangerously span:nth-child(5) {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
 }
 
 .star {

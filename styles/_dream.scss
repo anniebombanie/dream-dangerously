@@ -14,10 +14,11 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  overflow: hidden;
 }
 
 ul {
-  margin: 0;
+  margin: -12% 0 0;
   padding: 0;
   list-style: none;
   letter-spacing: 0;
@@ -75,9 +76,30 @@ ul {
       font-family: 'Roboto', sans-serif;
       font-weight: 100;
       text-transform: uppercase;
+      padding-left: 21%;
 
       span {
         margin-left: -1.5%;
+
+        &:nth-child( 1 ) {
+          animation-delay: 0.6s;
+        }
+
+        &:nth-child( 2 ) {
+          animation-delay: 1s;
+        }
+
+        &:nth-child( 3 ) {
+          animation-delay: 0.8s;
+        }
+
+        &:nth-child( 4 ) {
+          animation-delay: 1.4s;
+        }
+
+        &:nth-child( 5 ) {
+          animation-delay: 1.2s;
+        }
       }
     }
   }
