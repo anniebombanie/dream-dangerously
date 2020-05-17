@@ -17,7 +17,7 @@ body {
   overflow: hidden;
 }
 
-.wrapper:hover p span {
+.wrapper:hover p span, .wrapper:focus p span {
   -webkit-animation: smoke 1.75s ease-in forwards;
           animation: smoke 1.75s ease-in forwards;
 }
@@ -44,8 +44,8 @@ p.dream {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   margin: -12% 0 -5%;
-  -webkit-animation-delay: 0.75s;
-          animation-delay: 0.75s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 p.dream span {
@@ -83,8 +83,8 @@ p.dangerously {
   font-weight: 100;
   text-transform: uppercase;
   padding-left: 21%;
-  -webkit-animation-delay: 1.25s;
-          animation-delay: 1.25s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 p.dangerously span {

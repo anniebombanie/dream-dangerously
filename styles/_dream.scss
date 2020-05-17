@@ -18,7 +18,8 @@ body {
 }
 
 .wrapper {
-  &:hover {
+  &:hover,
+  &:focus {
     p span {
       animation: smoke 1.75s ease-in forwards;
     }
@@ -36,7 +37,6 @@ p {
 
   span {
     display: inline-block; /* Need this so smoke rises */
-    // animation: twinkle 5s ease-in-out infinite;
   }
 
   // Dream
@@ -45,7 +45,7 @@ p {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     margin: -12% 0 -5%;
-    animation-delay: 0.75s;
+    animation-delay: 1s;
 
     span {
       margin-left: -6%;
@@ -79,7 +79,7 @@ p {
     font-weight: 100;
     text-transform: uppercase;
     padding-left: 21%;
-    animation-delay: 1.25s;
+    animation-delay: 1.5s;
 
     span {
       margin-left: -1.5%;
