@@ -17,11 +17,8 @@ body {
   overflow: hidden;
 }
 
-ul {
-  margin: -12% 0 0;
-  padding: 0;
-  list-style: none;
-  letter-spacing: 0;
+p {
+  margin: 0;
   font-style: italic;
   color: #f5f5f5;
   -webkit-filter: blur(0.02vmin);
@@ -30,53 +27,48 @@ ul {
           animation: fade-in 2s ease-in-out forwards;
 }
 
-ul:hover span {
-  -webkit-animation: smoke 2s ease-in forwards;
-          animation: smoke 2s ease-in forwards;
-}
-
-ul li span {
+p span {
   display: inline-block;
   /* Need this so smoke rises */
 }
 
-ul li.dream {
+p.dream {
   font-size: 24vmin;
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  margin-bottom: -5%;
+  margin: -12% 0 -5%;
 }
 
-ul li.dream span {
+p.dream span {
   margin-left: -6%;
 }
 
-ul li.dream span:nth-child(1) {
+p.dream span:nth-child(1) {
   -webkit-animation-delay: 0.6s;
           animation-delay: 0.6s;
 }
 
-ul li.dream span:nth-child(2) {
+p.dream span:nth-child(2) {
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
 
-ul li.dream span:nth-child(3) {
+p.dream span:nth-child(3) {
   -webkit-animation-delay: 0.8s;
           animation-delay: 0.8s;
 }
 
-ul li.dream span:nth-child(4) {
+p.dream span:nth-child(4) {
   -webkit-animation-delay: 1.4s;
           animation-delay: 1.4s;
 }
 
-ul li.dream span:nth-child(5) {
+p.dream span:nth-child(5) {
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
 }
 
-ul li.dangerously {
+p.dangerously {
   font-size: 9vmin;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -84,61 +76,61 @@ ul li.dangerously {
   padding-left: 21%;
 }
 
-ul li.dangerously span {
+p.dangerously span {
   margin-left: -1.5%;
 }
 
-ul li.dangerously span:nth-child(1) {
+p.dangerously span:nth-child(1) {
   -webkit-animation-delay: 1.4s;
           animation-delay: 1.4s;
 }
 
-ul li.dangerously span:nth-child(2) {
+p.dangerously span:nth-child(2) {
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
 }
 
-ul li.dangerously span:nth-child(3) {
+p.dangerously span:nth-child(3) {
   -webkit-animation-delay: 1.6s;
           animation-delay: 1.6s;
 }
 
-ul li.dangerously span:nth-child(4) {
+p.dangerously span:nth-child(4) {
   -webkit-animation-delay: 1.8s;
           animation-delay: 1.8s;
 }
 
-ul li.dangerously span:nth-child(5) {
+p.dangerously span:nth-child(5) {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
 
-ul li.dangerously span:nth-child(6) {
+p.dangerously span:nth-child(6) {
   -webkit-animation-delay: 2.4s;
           animation-delay: 2.4s;
 }
 
-ul li.dangerously span:nth-child(7) {
+p.dangerously span:nth-child(7) {
   -webkit-animation-delay: 2.2s;
           animation-delay: 2.2s;
 }
 
-ul li.dangerously span:nth-child(8) {
+p.dangerously span:nth-child(8) {
   -webkit-animation-delay: 2.6s;
           animation-delay: 2.6s;
 }
 
-ul li.dangerously span:nth-child(9) {
+p.dangerously span:nth-child(9) {
   -webkit-animation-delay: 2.8s;
           animation-delay: 2.8s;
 }
 
-ul li.dangerously span:nth-child(10) {
+p.dangerously span:nth-child(10) {
   -webkit-animation-delay: 3.2s;
           animation-delay: 3.2s;
 }
 
-ul li.dangerously span:nth-child(11) {
+p.dangerously span:nth-child(11) {
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
 }
