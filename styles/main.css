@@ -30,7 +30,7 @@ ul {
           animation: fade-in 2s ease-in-out forwards;
 }
 
-ul:hover li.dream span {
+ul:hover span {
   -webkit-animation: smoke 2s ease-in forwards;
           animation: smoke 2s ease-in forwards;
 }
@@ -89,28 +89,58 @@ ul li.dangerously span {
 }
 
 ul li.dangerously span:nth-child(1) {
-  -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s;
-}
-
-ul li.dangerously span:nth-child(2) {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}
-
-ul li.dangerously span:nth-child(3) {
-  -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
-}
-
-ul li.dangerously span:nth-child(4) {
   -webkit-animation-delay: 1.4s;
           animation-delay: 1.4s;
 }
 
-ul li.dangerously span:nth-child(5) {
+ul li.dangerously span:nth-child(2) {
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
+}
+
+ul li.dangerously span:nth-child(3) {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+
+ul li.dangerously span:nth-child(4) {
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
+
+ul li.dangerously span:nth-child(5) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+ul li.dangerously span:nth-child(6) {
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+}
+
+ul li.dangerously span:nth-child(7) {
+  -webkit-animation-delay: 2.2s;
+          animation-delay: 2.2s;
+}
+
+ul li.dangerously span:nth-child(8) {
+  -webkit-animation-delay: 2.6s;
+          animation-delay: 2.6s;
+}
+
+ul li.dangerously span:nth-child(9) {
+  -webkit-animation-delay: 2.8s;
+          animation-delay: 2.8s;
+}
+
+ul li.dangerously span:nth-child(10) {
+  -webkit-animation-delay: 3.2s;
+          animation-delay: 3.2s;
+}
+
+ul li.dangerously span:nth-child(11) {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .star {
