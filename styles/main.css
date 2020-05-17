@@ -18,8 +18,8 @@ body {
 }
 
 .wrapper:hover p span {
-  -webkit-animation: smoke 2s ease-in forwards;
-          animation: smoke 2s ease-in forwards;
+  -webkit-animation: smoke 1.75s ease-in forwards;
+          animation: smoke 1.75s ease-in forwards;
 }
 
 p {
@@ -196,8 +196,8 @@ p.dangerously span:nth-child(11) {
             filter: blur(0.02vmin);
   }
   100% {
-    -webkit-transform: rotate(15deg) translate3d(45%, -95%, 0) skew(-30deg) scale(2);
-            transform: rotate(15deg) translate3d(45%, -95%, 0) skew(-30deg) scale(2);
+    -webkit-transform: rotate(15deg) translate3d(85%, -75%, 0) skew(-30deg) scale(2);
+            transform: rotate(15deg) translate3d(85%, -75%, 0) skew(-30deg) scale(2);
     opacity: 0;
     -webkit-filter: blur(2.5vmin);
             filter: blur(2.5vmin);
@@ -213,8 +213,8 @@ p.dangerously span:nth-child(11) {
             filter: blur(0.02vmin);
   }
   100% {
-    -webkit-transform: rotate(15deg) translate3d(45%, -95%, 0) skew(-30deg) scale(2);
-            transform: rotate(15deg) translate3d(45%, -95%, 0) skew(-30deg) scale(2);
+    -webkit-transform: rotate(15deg) translate3d(85%, -75%, 0) skew(-30deg) scale(2);
+            transform: rotate(15deg) translate3d(85%, -75%, 0) skew(-30deg) scale(2);
     opacity: 0;
     -webkit-filter: blur(2.5vmin);
             filter: blur(2.5vmin);

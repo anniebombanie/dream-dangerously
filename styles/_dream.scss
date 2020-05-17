@@ -20,7 +20,7 @@ body {
 .wrapper {
   &:hover {
     p span {
-      animation: smoke 2s ease-in forwards;
+      animation: smoke 1.75s ease-in forwards;
     }
   }
 }
@@ -36,6 +36,7 @@ p {
 
   span {
     display: inline-block; /* Need this so smoke rises */
+    // animation: twinkle 5s ease-in-out infinite;
   }
 
   // Dream
@@ -167,7 +168,7 @@ p {
     filter: blur( 0.02vmin );
   }
   100% {
-    transform: rotate( 15deg ) translate3d( 45%, -95%, 0 ) skew( -30deg ) scale( 2 );
+    transform: rotate( 15deg ) translate3d( 85%, -75%, 0 ) skew( -30deg ) scale( 2 );
     opacity: 0;
     filter: blur( 2.5vmin );
   }
