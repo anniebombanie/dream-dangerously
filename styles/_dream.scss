@@ -110,9 +110,7 @@ ul {
   background-color: $white;
   border-radius: 50%;
   box-shadow: 0 0 4px 1px $white;
-  animation-name: twinkle;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
+  animation: twinkle 4s infinite;
 
   &.medium {
     height: $baseSize + 1;
