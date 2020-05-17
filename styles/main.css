@@ -17,14 +17,21 @@ body {
   overflow: hidden;
 }
 
+.wrapper:hover p span {
+  -webkit-animation: smoke 2s ease-in forwards;
+          animation: smoke 2s ease-in forwards;
+}
+
 p {
+  opacity: 0;
   margin: 0;
   font-style: italic;
   color: #f5f5f5;
   -webkit-filter: blur(0.02vmin);
           filter: blur(0.02vmin);
-  -webkit-animation: fade-in 2s ease-in-out forwards;
-          animation: fade-in 2s ease-in-out forwards;
+  -webkit-animation: fade-in 1s ease-in-out forwards;
+          animation: fade-in 1s ease-in-out forwards;
+  text-shadow: 0 0 2vmin #df725d;
 }
 
 p span {
@@ -37,6 +44,8 @@ p.dream {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   margin: -12% 0 -5%;
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
 }
 
 p.dream span {
@@ -74,6 +83,8 @@ p.dangerously {
   font-weight: 100;
   text-transform: uppercase;
   padding-left: 21%;
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
 }
 
 p.dangerously span {
@@ -213,11 +224,15 @@ p.dangerously span:nth-child(11) {
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;
-    -webkit-filter: blur(0.5vmin);
-            filter: blur(0.5vmin);
+    -webkit-transform: translate3d(-2vmin, 2vmin, 0);
+            transform: translate3d(-2vmin, 2vmin, 0);
+    -webkit-filter: blur(1vmin);
+            filter: blur(1vmin);
   }
   100% {
     opacity: 1;
+    -webkit-transform: translate3d(0);
+            transform: translate3d(0);
     -webkit-filter: blur(0.02vmin);
             filter: blur(0.02vmin);
   }
@@ -226,11 +241,15 @@ p.dangerously span:nth-child(11) {
 @keyframes fade-in {
   0% {
     opacity: 0;
-    -webkit-filter: blur(0.5vmin);
-            filter: blur(0.5vmin);
+    -webkit-transform: translate3d(-2vmin, 2vmin, 0);
+            transform: translate3d(-2vmin, 2vmin, 0);
+    -webkit-filter: blur(1vmin);
+            filter: blur(1vmin);
   }
   100% {
     opacity: 1;
+    -webkit-transform: translate3d(0);
+            transform: translate3d(0);
     -webkit-filter: blur(0.02vmin);
             filter: blur(0.02vmin);
   }

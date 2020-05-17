@@ -17,22 +17,22 @@ body {
   overflow: hidden;
 }
 
+.wrapper {
+  &:hover {
+    p span {
+      animation: smoke 2s ease-in forwards;
+    }
+  }
+}
+
 p {
+  opacity: 0;
   margin: 0;
   font-style: italic;
   color: $white;
   filter: blur( 0.02vmin );
-  animation: fade-in 2s ease-in-out forwards;
-
-  // &::before {
-
-  // }
-
-  // &:hover {
-  //   span {
-  //     animation: smoke 2s ease-in forwards;
-  //   }
-  // }
+  animation: fade-in 1s ease-in-out forwards;
+  text-shadow: 0 0 2vmin $orange;
 
   span {
     display: inline-block; /* Need this so smoke rises */
@@ -44,6 +44,7 @@ p {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     margin: -12% 0 -5%;
+    animation-delay: 0.75s;
 
     span {
       margin-left: -6%;
@@ -77,6 +78,7 @@ p {
     font-weight: 100;
     text-transform: uppercase;
     padding-left: 21%;
+    animation-delay: 1.25s;
 
     span {
       margin-left: -1.5%;
@@ -174,10 +176,12 @@ p {
 @keyframes fade-in {
   0% {
     opacity: 0;
-    filter: blur( 0.5vmin );
+    transform: translate3d( -2vmin, 2vmin, 0 );
+    filter: blur( 1vmin );
   }
   100% {
     opacity: 1;
+    transform: translate3d( 0 );
     filter: blur( 0.02vmin );
   }
 }
