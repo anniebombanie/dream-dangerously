@@ -21,6 +21,7 @@ ul {
   padding: 0;
   list-style: none;
   letter-spacing: 0;
+  font-style: italic;
   color: #f5f5f5;
   -webkit-filter: blur(0.02vmin);
           filter: blur(0.02vmin);
@@ -34,9 +35,8 @@ ul:hover li.dream span {
 }
 
 ul li span {
-  opacity: 1;
   display: inline-block;
-  font-style: italic;
+  /* Need this so smoke rises */
 }
 
 ul li.dream {
@@ -129,8 +129,8 @@ ul li.dangerously span {
 
 @-webkit-keyframes smoke {
   0% {
-    -webkit-transform: rotate(0deg) translateY(0%) skewX(0deg) scale(1);
-            transform: rotate(0deg) translateY(0%) skewX(0deg) scale(1);
+    -webkit-transform: rotate(0deg) translate3d(0%) skew(0deg) scale(1);
+            transform: rotate(0deg) translate3d(0%) skew(0deg) scale(1);
     opacity: 1;
     -webkit-filter: blur(0.02vmin);
             filter: blur(0.02vmin);
@@ -146,8 +146,8 @@ ul li.dangerously span {
 
 @keyframes smoke {
   0% {
-    -webkit-transform: rotate(0deg) translateY(0%) skewX(0deg) scale(1);
-            transform: rotate(0deg) translateY(0%) skewX(0deg) scale(1);
+    -webkit-transform: rotate(0deg) translate3d(0%) skew(0deg) scale(1);
+            transform: rotate(0deg) translate3d(0%) skew(0deg) scale(1);
     opacity: 1;
     -webkit-filter: blur(0.02vmin);
             filter: blur(0.02vmin);
